@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+import React,{useState} from 'react';
+import react from 'react';
+ 
+
+ function App(){
+let [count, setCount] = useState(1);
+
+  return( 
+<div className='App'>
+  <div className ='card_content'>
+    <header className='card_header'>
+      <h2>Increment and Decrement</h2>
+  
+      <button style = {{marginLeft:"1rem",display: "inline"}} onClick={() => setCount(count*3)}> +  </button>
+     
+     <h2 class = "card__title" style = {{marginLeft:"1rem",display: "inline"}}> {count <= 1 ? (count = 1) : count}</h2>
+    
+     <button style = {{marginLeft:"1rem",display: "inline"}}  onClick= {()=> setCount(count/3)}> - </button> 
+     
+     </header>
+  </div>
+</div>
+);
+
 }
+
+
+
+
+
+
+
 
 export default App;
