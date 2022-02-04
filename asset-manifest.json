@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/arion/%20/static/css/main.073c9b0a.css",
-    "main.js": "/arion/%20/static/js/main.06e70f54.js",
-    "static/js/787.83c4b246.chunk.js": "/arion/%20/static/js/787.83c4b246.chunk.js",
-    "index.html": "/arion/%20/index.html",
-    "main.073c9b0a.css.map": "/arion/%20/static/css/main.073c9b0a.css.map",
-    "main.06e70f54.js.map": "/arion/%20/static/js/main.06e70f54.js.map",
-    "787.83c4b246.chunk.js.map": "/arion/%20/static/js/787.83c4b246.chunk.js.map"
+    "main.css": "/arion/static/css/main.073c9b0a.css",
+    "main.js": "/arion/static/js/main.497df453.js",
+    "static/js/787.83c4b246.chunk.js": "/arion/static/js/787.83c4b246.chunk.js",
+    "index.html": "/arion/index.html",
+    "main.073c9b0a.css.map": "/arion/static/css/main.073c9b0a.css.map",
+    "main.497df453.js.map": "/arion/static/js/main.497df453.js.map",
+    "787.83c4b246.chunk.js.map": "/arion/static/js/787.83c4b246.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.06e70f54.js"
+    "static/js/main.497df453.js"
   ]
 }
